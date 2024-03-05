@@ -1,0 +1,13 @@
+{
+  "name": "Eiger-Demo",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/hardhat-upgrades": "^3.0.4",
+    "@typechain/hardhat": "^9.1.0",
+    "hardhat": "^2.21.0",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.10"
+  }
+}
