@@ -3,11 +3,16 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@nomiclabs/hardhat-etherscan": "^3.1.8",
-    "@openzeppelin/hardhat-upgrades": "^3.0.4",
+    "@openzeppelin/hardhat-upgrades": "^3.0.5",
     "@typechain/hardhat": "^9.1.0",
+    "dotenv": "^16.4.5",
     "hardhat": "^2.21.0",
     "hardhat-contract-sizer": "^2.10.0",
     "hardhat-gas-reporter": "^1.0.10",
     "solidity-coverage": "^0.8.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@uniswap/v3-periphery": "^1.4.4"
   }
 }
