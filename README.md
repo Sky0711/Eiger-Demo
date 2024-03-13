@@ -16,10 +16,6 @@ The contract is deployed on the Goerli Ethereum testnet.
 
 - **Contract Address**: `0xf786154e56e5c88Ce984800dEa71B48EA4FFAbfE`
 
-## Getting Started
-
-To interact with the contract or contribute to its development, follow the steps below:
-
 ### Setup
 
 1. **Clone the repository**: Obtain the project files by cloning the repository.
