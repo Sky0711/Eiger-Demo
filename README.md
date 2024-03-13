@@ -8,7 +8,7 @@ The project introduces a smart contract designed for the Ethereum blockchain to 
 - **ETH to ERC-20 Token Swap**: Allows users to exchange their ETH for any ERC-20 token supported by Uniswap V3.
 - **Minimum Amount Guarantee**: Ensures transactions revert if the received token amount is less than the specified minimum, safeguarding user expectations.
 - **Upgradeable Contract**: Utilizes UUPS (Universal Upgradeable Proxy Standard) for straightforward and secure contract upgrades.
-- **Owner-Authorized Upgrades**: Restricts upgrade authority to the contract owner, enhancing security.
+- **Owner-Authorized Upgrades**: Restricts upgrade authority to the contract owner.
 
 ## Deployment
 
@@ -41,3 +41,4 @@ npx hardhat run scripts/deployERC20Swapper.ts --network <network-name>
 - **Performance**: Aims for gas-efficient execution of swaps and contract deployment.
 - **Upgradeability and Maintenance**: Facilitates future enhancements and vulnerability mitigation through the adoption of the UUPS upgradeability standard.
 - **Usability and Interoperability**: Designed to support interactions from both Externally Owned Accounts (EOAs) and other contracts, broadening the contract's applicability across the Ethereum ecosystem.
+- **Readability and code quality**: The code is fully commented, functions and its parameters documented. 
